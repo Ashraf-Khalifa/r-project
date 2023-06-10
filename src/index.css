@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* CSS Styles */
+
+.place-list {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+.selected-place__description {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.selected-place__description h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.selected-place__description p {
+  font-size: 16px;
+}
+
+
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.search-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cont{
+  
+ color: #010101;
+}
